@@ -1,0 +1,153 @@
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+body {
+  background-color: rgb(237, 240, 239);
+}
+
+.nav-link {
+  color: black;
+}
+
+svg {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+}
+
+.Project-Description {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.solid {
+  border-top: 2px solid gray;
+}
+
+.last-contact-icon {
+  margin-bottom: 4vw;
+}
+
+/* Extra small devices */
+@media screen and (max-width: 576px) {
+  .body-text {
+    font-family: "Inter", sans-serif;
+    font-size: 3.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  #profile-pic {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  .body-text {
+    font-family: "Inter", sans-serif;
+    font-size: 3.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  #profile-pic {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .body-text {
+    font-family: "Inter", sans-serif;
+    font-size: 2.2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  #profile-pic {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    border-radius: 50px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .body-text {
+    font-family: "Inter", sans-serif;
+    font-size: 1.8vw;
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+  }
+
+  #profile-pic {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    border-radius: 50px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .body-text {
+    font-family: "Inter", sans-serif;
+    font-size: 1.8vw;
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+  }
+
+  #profile-pic {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    border-radius: 75px;
+  }
+}
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media screen and (min-width: 1200px) {
+  .body-text {
+    font-family: "Inter", sans-serif;
+    font-size: 1.8vw;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #profile-pic {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    border-radius: 75px;
+  }
+}
